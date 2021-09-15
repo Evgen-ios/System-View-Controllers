@@ -6,7 +6,6 @@
 ## Icon
 ![Screenshots](https://github.com/Evgen-ios/System-View-Controllers/blob/main/System%20View%20Controllers/Assets.xcassets/AppIcon.appiconset/180.png)
 
-## Screenshots
-![Screenshots](https://github.com/Evgen-ios/System-View-Controllers/blob/main/System%20View%20Controllers/Screenshots/1.png)
-![Screenshots](https://github.com/Evgen-ios/System-View-Controllers/blob/main/System%20View%20Controllers/Screenshots/2.png)
-
+First Screenshot | Second Screenshot
+------------ | -------------
+![Screenshots](https://github.com/Evgen-ios/System-View-Controllers/blob/main/System%20View%20Controllers/Screenshots/1.png) | ![Screenshots](https://github.com/Evgen-ios/System-View-Controllers/blob/main/System%20View%20Controllers/Screenshots/2.png)
