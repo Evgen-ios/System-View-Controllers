@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		7A0DBD6126F093940058A932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6026F093940058A932 /* AppDelegate.swift */; };
 		7A0DBD6326F093940058A932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6226F093940058A932 /* SceneDelegate.swift */; };
-		7A0DBD6526F093940058A932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6426F093940058A932 /* ViewController.swift */; };
 		7A0DBD6826F093940058A932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6626F093940058A932 /* Main.storyboard */; };
 		7A0DBD6A26F093970058A932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6926F093970058A932 /* Assets.xcassets */; };
 		7A0DBD6D26F093970058A932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6B26F093970058A932 /* LaunchScreen.storyboard */; };
+		7A0DBD7526F0BC270058A932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD7426F0BC270058A932 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A0DBD5D26F093940058A932 /* System View Controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System View Controllers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0DBD6026F093940058A932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A0DBD6226F093940058A932 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A0DBD6426F093940058A932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A0DBD6726F093940058A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A0DBD6926F093970058A932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0DBD6C26F093970058A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0DBD6E26F093970058A932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0DBD7426F0BC270058A932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				7A0DBD6026F093940058A932 /* AppDelegate.swift */,
 				7A0DBD6226F093940058A932 /* SceneDelegate.swift */,
-				7A0DBD6426F093940058A932 /* ViewController.swift */,
+				7A0DBD7426F0BC270058A932 /* ViewController.swift */,
 				7A0DBD6626F093940058A932 /* Main.storyboard */,
 				7A0DBD6926F093970058A932 /* Assets.xcassets */,
 				7A0DBD6B26F093970058A932 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0DBD6526F093940058A932 /* ViewController.swift in Sources */,
+				7A0DBD7526F0BC270058A932 /* ViewController.swift in Sources */,
 				7A0DBD6126F093940058A932 /* AppDelegate.swift in Sources */,
 				7A0DBD6326F093940058A932 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.System-View-Controllers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.mda.systemviewcontrollers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -330,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.mda.System-View-Controllers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.mda.systemviewcontrollers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
