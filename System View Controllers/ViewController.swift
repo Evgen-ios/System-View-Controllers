@@ -42,15 +42,14 @@ class ViewController: UIViewController {
     func saveJpg(_ image: UIImage) -> Data? {
         if let jpgData = image.jpegData(compressionQuality: 0.5),
            let path = getDocumentsDirectory()?.appendingPathComponent("attachement.jpg") {
-            //print(#line, #function, path)
             try? jpgData.write(to: path)
             return try? Data(contentsOf: path)
         } else { return nil }
-    
+        
     }
     
     // Show Alert message
-    func showAlert(title: String?, message: String?){
+    func showAlert(title: String?, message: String?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         // add an action (button)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
@@ -95,7 +94,6 @@ class ViewController: UIViewController {
             let photoLibraryAction = UIAlertAction(title: "Photo Library", style: .default) { action in
                 imagePiker.sourceType = .photoLibrary
                 self.present(imagePiker, animated: true)
-                print(#line,#function, "Photo Library selected")
             }
             alert.addAction(photoLibraryAction)
         }
@@ -108,7 +106,6 @@ class ViewController: UIViewController {
     @IBAction func emailButtonPressed(_ sender: UIButton) {
         guard MFMailComposeViewController.canSendMail() else {
             showAlert(title: "Sorry Bro", message: "Mail services are not available")
-            print("Mail services are not available")
             return
         }
         
@@ -151,23 +148,18 @@ extension ViewController: MFMailComposeViewControllerDelegate {
         switch (result) {
         case .cancelled:
             showAlert(title: "Cancelled", message: "You cancelled sending this email.")
-            print("You cancelled sending this email.")
             break
         case .saved:
             showAlert(title: "Saved", message: "You saved a draft of this email")
-            print("You saved a draft of this email")
             break
         case .sent:
             showAlert(title: "Sent", message: "You sent the email.")
-            print("You sent the email.")
             break
         case .failed:
             showAlert(title: "Failed", message: "Mail failed:  An error occurred when trying to compose this email")
-            print("Mail failed:  An error occurred when trying to compose this email")
             break
         default:
             showAlert(title: "Error", message: "An error occurred when trying to compose this email")
-            print("An error occurred when trying to compose this email")
             break
         }
         

@@ -13,6 +13,8 @@
 		7A0DBD6A26F093970058A932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6926F093970058A932 /* Assets.xcassets */; };
 		7A0DBD6D26F093970058A932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD6B26F093970058A932 /* LaunchScreen.storyboard */; };
 		7A0DBD7526F0BC270058A932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD7426F0BC270058A932 /* ViewController.swift */; };
+		7A0DBD7926F1E1EB0058A932 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD7726F1E1EB0058A932 /* 1.png */; };
+		7A0DBD7A26F1E1EB0058A932 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0DBD7826F1E1EB0058A932 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7A0DBD6C26F093970058A932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0DBD6E26F093970058A932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A0DBD7426F0BC270058A932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A0DBD7726F1E1EB0058A932 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7A0DBD7826F1E1EB0058A932 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7A0DBD5F26F093940058A932 /* System View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7A0DBD7626F1E13F0058A932 /* Screenshots */,
 				7A0DBD6026F093940058A932 /* AppDelegate.swift */,
 				7A0DBD6226F093940058A932 /* SceneDelegate.swift */,
 				7A0DBD7426F0BC270058A932 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				7A0DBD6E26F093970058A932 /* Info.plist */,
 			);
 			path = "System View Controllers";
+			sourceTree = "<group>";
+		};
+		7A0DBD7626F1E13F0058A932 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				7A0DBD7726F1E1EB0058A932 /* 1.png */,
+				7A0DBD7826F1E1EB0058A932 /* 2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0DBD6D26F093970058A932 /* LaunchScreen.storyboard in Resources */,
+				7A0DBD7926F1E1EB0058A932 /* 1.png in Resources */,
+				7A0DBD7A26F1E1EB0058A932 /* 2.png in Resources */,
 				7A0DBD6A26F093970058A932 /* Assets.xcassets in Resources */,
 				7A0DBD6826F093940058A932 /* Main.storyboard in Resources */,
 			);
